@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MUTFLIX Streaming</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="img/bayc-footer.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <ul id="navbar">
+                <li><h1>MUTFLIX</h1></li>
+                <li><form action="#">
+                    <input id="search" type="search" placeholder="Game of Thrones...">
+                    <input id="search_btn" type="button" value="Chercher">
+                </form></li>
+                <li class="menu"><a href="#">Films</a></li>
+                <li class="menu"><a href="#">Séries</a></li>
+                <li class="menu"><a href="#">Streaming</a></li>
+            </ul>
+        </header>
+        <section id="sect1">
+            <div class="poster" id="poster1">
+                <video controls poster="img/poster1.jpg" width="340px" height="453.33px">
+                    <source src="img/vid1.mp4" type="video/mp4">
+                </video>
+                <h4>The Batman</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi ad exercitationem alias odit. Amet vero similique ducimus a veritatis praesentium deleniti eaque est provident ipsum aut, nostrum earum placeat.</p>
+                <a class="voirplus" href="#">Voir plus</a>
+            </div>
+            <div class="poster" id="poster2">
+                <video controls poster="img/poster2.jpg" width="340px" height="453.33px">
+                    <source src="img/vid2.mp4" type="video/mp4">
+                </video>
+                <h4>Dragon Ball Super: Super Hero</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi ad exercitationem alias odit. Amet vero similique ducimus a veritatis praesentium deleniti eaque est provident ipsum aut, nostrum earum placeat.</p>
+                <a class="voirplus" href="#">Voir plus</a>
+            </div>
+            <div class="poster" id="poster3">
+                <video controls poster="img/poster3.jpg" width="340px" height="453.33px">
+                    <source src="img/vid3.mp4" type="video/mp4">
+                </video>
+                <h4>Doctor Strange: in the Multiverse of Madness</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi ad exercitationem alias odit. Amet vero similique ducimus a veritatis praesentium deleniti eaque est provident ipsum aut, nostrum earum placeat.</p>
+                <a class="voirplus" href="#">Voir plus</a>
+            </div>
+        </section>
+        <section id="sect2">
+            <form class="login" action="#">
+                <input class="login_input" type="text" placeholder="Entrez votre identifiant"> <br>
+                <input class="login_input" type="email" placeholder="Adresse e-mail"> <br>
+                <input class="login_input" type="password" placeholder="Mot de passe"> <br>
+                <label>Masculin</label>
+                <input type="radio" name="choix">
+                <label>Féminin</label>
+                <input type="radio" name="choix"> <br><br>
+                <select name="langue">
+                    <option value="français">Français</option>
+                    <option value="anglais">Anglais</option>
+                    <option value="espagnol">Espagnol</option>
+                    <option value="allemand">Allemand</option>
+                    <option value="portugais">Portugais</option>
+                </select><br>
+                <input id="login_btn" type="submit" value="Se connecter">
+            </form>
+            <form id="form_table" class="login" action="#">
+                <table>
+                    <tr>
+                        <th>Nom d'utilisateur</th>
+                        <td><input class="form_table_td" type="text" placeholder="identifiant"></td>
+                    </tr>
+                    <tr>
+                        <th>Adresse e-mail</th>
+                        <td><input class="form_table_td" type="email" placeholder="e-mail"></td>
+                    </tr>
+                    <tr>
+                        <th>Sexe</th>
+                        <td>
+                            <select>
+                                <option value="m">M</option>
+                                <option value="f">F</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Langue</th>
+                        <td>
+                            <select name="langue">
+                                <option value="français">Français</option>
+                                <option value="anglais">Anglais</option>
+                                <option value="espagnol">Espagnol</option>
+                                <option value="allemand">Allemand</option>
+                                <option value="portugais">Portugais</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </body>
+    <footer>
+        <h3>Merci pour votre visite!</h3>
+        <ul>
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">Aide ou commentaires</a></li>
+            <li><a href="#">Conditions d'utilisations</a></li>
+        </ul>
+    </footer>
+</html>
